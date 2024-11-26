@@ -1,0 +1,66 @@
+[1.707s] Invoking command in '/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_description': PYTHONPATH=/home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/FINAL_description build --build-base /home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/build install --record /home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/install.log --install-scripts $base/lib/FINAL_description --single-version-externally-managed install_data
+[2.164s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.164s]   warnings.warn(
+[2.177s] running egg_info
+[2.178s] creating ../../build/FINAL_description/FINAL_description.egg-info
+[2.179s] writing ../../build/FINAL_description/FINAL_description.egg-info/PKG-INFO
+[2.179s] writing dependency_links to ../../build/FINAL_description/FINAL_description.egg-info/dependency_links.txt
+[2.180s] writing entry points to ../../build/FINAL_description/FINAL_description.egg-info/entry_points.txt
+[2.180s] writing requirements to ../../build/FINAL_description/FINAL_description.egg-info/requires.txt
+[2.181s] writing top-level names to ../../build/FINAL_description/FINAL_description.egg-info/top_level.txt
+[2.181s] writing manifest file '../../build/FINAL_description/FINAL_description.egg-info/SOURCES.txt'
+[2.184s] reading manifest file '../../build/FINAL_description/FINAL_description.egg-info/SOURCES.txt'
+[2.185s] writing manifest file '../../build/FINAL_description/FINAL_description.egg-info/SOURCES.txt'
+[2.186s] running build
+[2.186s] running build_py
+[2.187s] creating /home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/build
+[2.187s] creating /home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/build/lib
+[2.187s] creating /home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/build/lib/FINAL_description
+[2.187s] copying FINAL_description/__init__.py -> /home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/build/lib/FINAL_description
+[2.187s] running install
+[2.188s] running install_lib
+[2.190s] creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/lib/python3.10/site-packages/FINAL_description
+[2.190s] copying /home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/build/lib/FINAL_description/__init__.py -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/lib/python3.10/site-packages/FINAL_description
+[2.191s] byte-compiling /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/lib/python3.10/site-packages/FINAL_description/__init__.py to __init__.cpython-310.pyc
+[2.192s] running install_data
+[2.192s] creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/ament_index
+[2.193s] creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/ament_index/resource_index
+[2.193s] creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/ament_index/resource_index/packages
+[2.193s] copying resource/FINAL_description -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/ament_index/resource_index/packages
+[2.193s] copying package.xml -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description
+[2.194s] creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/launch
+[2.195s] copying launch/display.launch.py -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/launch
+[2.195s] copying launch/gazebo.launch.py -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/launch
+[2.196s] creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/urdf
+[2.196s] copying urdf/FINAL.gazebo -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/urdf
+[2.196s] copying urdf/FINAL.trans -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/urdf
+[2.197s] copying urdf/FINAL.xacro -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/urdf
+[2.197s] copying urdf/materials.xacro -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/urdf
+[2.197s] creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.197s] copying meshes/Pin_Links_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.197s] copying meshes/Pin_end_effector_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.198s] copying meshes/Gear_3,_UPDATED_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.199s] copying meshes/Sun_Connector_Shaft,_0.2497''_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.199s] copying meshes/End_cap_Pin_Base_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.200s] copying meshes/Manipulator3__2__1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.200s] copying meshes/base_link.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.201s] copying meshes/Planetary_Gear_Arm_Connector,1_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.201s] copying meshes/Base_1_Top_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.202s] copying meshes/Arm_1_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.202s] copying meshes/worm_1_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.211s] copying meshes/Pin_Base_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.211s] copying meshes/End_cap_pin_links_2.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.212s] copying meshes/Gear_1_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.213s] copying meshes/Worm_3_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.214s] copying meshes/Motor_3_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.215s] copying meshes/Motor_end_effector_2.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.216s] copying meshes/End_cap_Pin_Base_2.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.216s] copying meshes/End_cap_pin_links_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.217s] copying meshes/Motor_end_effector_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes
+[2.217s] creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/config
+[2.218s] copying config/display.rviz -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/config
+[2.218s] running install_egg_info
+[2.221s] Copying ../../build/FINAL_description/FINAL_description.egg-info to /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/lib/python3.10/site-packages/FINAL_description-0.0.0-py3.10.egg-info
+[2.223s] running install_scripts
+[2.257s] writing list of installed files to '/home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/install.log'
+[2.293s] Invoked command in '/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_description' returned '0': PYTHONPATH=/home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/FINAL_description build --build-base /home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/build install --record /home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/install.log --install-scripts $base/lib/FINAL_description --single-version-externally-managed install_data

@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.001447] (FINAL_description) JobQueued: {'identifier': 'FINAL_description', 'dependencies': OrderedDict()}
+[0.001561] (FINAL_description) JobStarted: {'identifier': 'FINAL_description'}
+[0.099982] (-) TimerEvent: {}
+[0.200615] (-) TimerEvent: {}
+[0.301523] (-) TimerEvent: {}
+[0.402309] (-) TimerEvent: {}
+[0.502865] (-) TimerEvent: {}
+[0.603716] (-) TimerEvent: {}
+[0.704807] (-) TimerEvent: {}
+[0.805720] (-) TimerEvent: {}
+[0.906438] (-) TimerEvent: {}
+[1.007229] (-) TimerEvent: {}
+[1.108273] (-) TimerEvent: {}
+[1.208942] (-) TimerEvent: {}
+[1.309838] (-) TimerEvent: {}
+[1.410611] (-) TimerEvent: {}
+[1.511515] (-) TimerEvent: {}
+[1.612344] (-) TimerEvent: {}
+[1.706848] (FINAL_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/FINAL_description', 'build', '--build-base', '/home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/build', 'install', '--record', '/home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/install.log', '--install-scripts', '$base/lib/FINAL_description', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'asere', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/asere/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/asere', 'OLDPWD': '/home/asere/NASA-FSI-Arm', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1792', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/asere/NASA-FSI-Arm/arm_ws/install:/home/asere/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'asere', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asere', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/asere-virtual-machine:@/tmp/.ICE-unix/1769,unix/asere-virtual-machine:/tmp/.ICE-unix/1769', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/35e2b126_0331_4722_87b9_c54067a77684', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3OIMX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.152', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/asere/ros2_ws/install/my_robot_bringup:/home/asere/ros2_ws/install/my_py_pkg:/home/asere/ros2_ws/install/actions_py:/home/asere/ros2_ws/install/my_robot_interfaces:/home/asere/ros2_ws/install/my_robot_description:/home/asere/ros2_ws/install/my_cpp_pkg:/home/asere/ros2_ws/install/lifecycle_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/lib/python3.10/site-packages:/home/asere/ros2_ws/build/my_py_pkg:/home/asere/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/asere/ros2_ws/build/actions_py:/home/asere/ros2_ws/install/actions_py/lib/python3.10/site-packages:/home/asere/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/asere/ros2_ws/build/lifecycle_py:/home/asere/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/asere/ros2_ws/install/my_robot_bringup:/home/asere/ros2_ws/install/my_robot_interfaces:/home/asere/ros2_ws/install/my_robot_description:/home/asere/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[1.713681] (-) TimerEvent: {}
+[1.814621] (-) TimerEvent: {}
+[1.915621] (-) TimerEvent: {}
+[2.016540] (-) TimerEvent: {}
+[2.117501] (-) TimerEvent: {}
+[2.165209] (FINAL_description) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.165783] (FINAL_description) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.178818] (FINAL_description) StdoutLine: {'line': b'running egg_info\n'}
+[2.179919] (FINAL_description) StdoutLine: {'line': b'creating ../../build/FINAL_description/FINAL_description.egg-info\n'}
+[2.180334] (FINAL_description) StdoutLine: {'line': b'writing ../../build/FINAL_description/FINAL_description.egg-info/PKG-INFO\n'}
+[2.180878] (FINAL_description) StdoutLine: {'line': b'writing dependency_links to ../../build/FINAL_description/FINAL_description.egg-info/dependency_links.txt\n'}
+[2.181210] (FINAL_description) StdoutLine: {'line': b'writing entry points to ../../build/FINAL_description/FINAL_description.egg-info/entry_points.txt\n'}
+[2.181723] (FINAL_description) StdoutLine: {'line': b'writing requirements to ../../build/FINAL_description/FINAL_description.egg-info/requires.txt\n'}
+[2.181997] (FINAL_description) StdoutLine: {'line': b'writing top-level names to ../../build/FINAL_description/FINAL_description.egg-info/top_level.txt\n'}
+[2.182349] (FINAL_description) StdoutLine: {'line': b"writing manifest file '../../build/FINAL_description/FINAL_description.egg-info/SOURCES.txt'\n"}
+[2.184969] (FINAL_description) StdoutLine: {'line': b"reading manifest file '../../build/FINAL_description/FINAL_description.egg-info/SOURCES.txt'\n"}
+[2.186911] (FINAL_description) StdoutLine: {'line': b"writing manifest file '../../build/FINAL_description/FINAL_description.egg-info/SOURCES.txt'\n"}
+[2.187361] (FINAL_description) StdoutLine: {'line': b'running build\n'}
+[2.187787] (FINAL_description) StdoutLine: {'line': b'running build_py\n'}
+[2.187990] (FINAL_description) StdoutLine: {'line': b'creating /home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/build\n'}
+[2.188276] (FINAL_description) StdoutLine: {'line': b'creating /home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/build/lib\n'}
+[2.188428] (FINAL_description) StdoutLine: {'line': b'creating /home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/build/lib/FINAL_description\n'}
+[2.188542] (FINAL_description) StdoutLine: {'line': b'copying FINAL_description/__init__.py -> /home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/build/lib/FINAL_description\n'}
+[2.188841] (FINAL_description) StdoutLine: {'line': b'running install\n'}
+[2.189160] (FINAL_description) StdoutLine: {'line': b'running install_lib\n'}
+[2.191782] (FINAL_description) StdoutLine: {'line': b'creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/lib/python3.10/site-packages/FINAL_description\n'}
+[2.191918] (FINAL_description) StdoutLine: {'line': b'copying /home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/build/lib/FINAL_description/__init__.py -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/lib/python3.10/site-packages/FINAL_description\n'}
+[2.192764] (FINAL_description) StdoutLine: {'line': b'byte-compiling /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/lib/python3.10/site-packages/FINAL_description/__init__.py to __init__.cpython-310.pyc\n'}
+[2.193258] (FINAL_description) StdoutLine: {'line': b'running install_data\n'}
+[2.193885] (FINAL_description) StdoutLine: {'line': b'creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/ament_index\n'}
+[2.194021] (FINAL_description) StdoutLine: {'line': b'creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/ament_index/resource_index\n'}
+[2.194191] (FINAL_description) StdoutLine: {'line': b'creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/ament_index/resource_index/packages\n'}
+[2.194541] (FINAL_description) StdoutLine: {'line': b'copying resource/FINAL_description -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/ament_index/resource_index/packages\n'}
+[2.194711] (FINAL_description) StdoutLine: {'line': b'copying package.xml -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description\n'}
+[2.195365] (FINAL_description) StdoutLine: {'line': b'creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/launch\n'}
+[2.195974] (FINAL_description) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/launch\n'}
+[2.196138] (FINAL_description) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/launch\n'}
+[2.197140] (FINAL_description) StdoutLine: {'line': b'creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/urdf\n'}
+[2.197384] (FINAL_description) StdoutLine: {'line': b'copying urdf/FINAL.gazebo -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/urdf\n'}
+[2.197866] (FINAL_description) StdoutLine: {'line': b'copying urdf/FINAL.trans -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/urdf\n'}
+[2.198128] (FINAL_description) StdoutLine: {'line': b'copying urdf/FINAL.xacro -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/urdf\n'}
+[2.198456] (FINAL_description) StdoutLine: {'line': b'copying urdf/materials.xacro -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/urdf\n'}
+[2.198605] (FINAL_description) StdoutLine: {'line': b'creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.198744] (FINAL_description) StdoutLine: {'line': b'copying meshes/Pin_Links_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.198924] (FINAL_description) StdoutLine: {'line': b'copying meshes/Pin_end_effector_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.199071] (FINAL_description) StdoutLine: {'line': b'copying meshes/Gear_3,_UPDATED_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.200156] (FINAL_description) StdoutLine: {'line': b"copying meshes/Sun_Connector_Shaft,_0.2497''_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n"}
+[2.200454] (FINAL_description) StdoutLine: {'line': b'copying meshes/End_cap_Pin_Base_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.201104] (FINAL_description) StdoutLine: {'line': b'copying meshes/Manipulator3__2__1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.201604] (FINAL_description) StdoutLine: {'line': b'copying meshes/base_link.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.202336] (FINAL_description) StdoutLine: {'line': b'copying meshes/Planetary_Gear_Arm_Connector,1_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.202863] (FINAL_description) StdoutLine: {'line': b'copying meshes/Base_1_Top_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.203314] (FINAL_description) StdoutLine: {'line': b'copying meshes/Arm_1_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.203909] (FINAL_description) StdoutLine: {'line': b'copying meshes/worm_1_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.212297] (FINAL_description) StdoutLine: {'line': b'copying meshes/Pin_Base_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.212804] (FINAL_description) StdoutLine: {'line': b'copying meshes/End_cap_pin_links_2.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.213198] (FINAL_description) StdoutLine: {'line': b'copying meshes/Gear_1_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.214723] (FINAL_description) StdoutLine: {'line': b'copying meshes/Worm_3_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.215857] (FINAL_description) StdoutLine: {'line': b'copying meshes/Motor_3_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.216383] (FINAL_description) StdoutLine: {'line': b'copying meshes/Motor_end_effector_2.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.217068] (FINAL_description) StdoutLine: {'line': b'copying meshes/End_cap_Pin_Base_2.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.217705] (FINAL_description) StdoutLine: {'line': b'copying meshes/End_cap_pin_links_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.217854] (-) TimerEvent: {}
+[2.218255] (FINAL_description) StdoutLine: {'line': b'copying meshes/Motor_end_effector_1.stl -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/meshes\n'}
+[2.218812] (FINAL_description) StdoutLine: {'line': b'creating /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/config\n'}
+[2.219016] (FINAL_description) StdoutLine: {'line': b'copying config/display.rviz -> /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/config\n'}
+[2.219413] (FINAL_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.222494] (FINAL_description) StdoutLine: {'line': b'Copying ../../build/FINAL_description/FINAL_description.egg-info to /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/lib/python3.10/site-packages/FINAL_description-0.0.0-py3.10.egg-info\n'}
+[2.224196] (FINAL_description) StdoutLine: {'line': b'running install_scripts\n'}
+[2.258098] (FINAL_description) StdoutLine: {'line': b"writing list of installed files to '/home/asere/NASA-FSI-Arm/arm_ws/build/FINAL_description/install.log'\n"}
+[2.294171] (FINAL_description) CommandEnded: {'returncode': 0}
+[2.318899] (-) TimerEvent: {}
+[2.330929] (FINAL_description) JobEnded: {'identifier': 'FINAL_description', 'rc': 0}
+[2.331811] (-) EventReactorShutdown: {}
