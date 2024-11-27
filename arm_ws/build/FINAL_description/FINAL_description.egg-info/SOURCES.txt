@@ -38,5 +38,6 @@ test/test_flake8.py
 test/test_pep257.py
 urdf/FINAL.gazebo
 urdf/FINAL.trans
+urdf/FINAL.urdf
 urdf/FINAL.xacro
 urdf/materials.xacro

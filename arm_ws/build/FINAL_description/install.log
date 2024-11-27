@@ -4,6 +4,7 @@
 /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/package.xml
 /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/launch/display.launch.py
 /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/launch/gazebo.launch.py
+/home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/urdf/FINAL.urdf
 /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/urdf/FINAL.gazebo
 /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/urdf/FINAL.trans
 /home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/share/FINAL_description/urdf/FINAL.xacro

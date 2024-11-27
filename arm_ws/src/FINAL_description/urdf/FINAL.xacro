@@ -13,14 +13,14 @@
   <visual>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find FINAL_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="$(find FINAL_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find FINAL_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="$(find FINAL_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -34,14 +34,14 @@
   <visual>
     <origin xyz="-0.0075 -0.1025 0.037395" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find FINAL_description)/meshes/Sun_Connector_Shaft,_0.2497''_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="$(find FINAL_description)/meshes/Sun_Connector_Shaft,_0.2497''_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.0075 -0.1025 0.037395" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find FINAL_description)/meshes/Sun_Connector_Shaft,_0.2497''_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="$(find FINAL_description)/meshes/Sun_Connector_Shaft,_0.2497''_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -55,14 +55,14 @@
   <visual>
     <origin xyz="-0.0075 -0.1025 0.006915" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find FINAL_description)/meshes/Planetary_Gear_Arm_Connector,1_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="$(find FINAL_description)/meshes/Planetary_Gear_Arm_Connector,1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.0075 -0.1025 0.006915" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find FINAL_description)/meshes/Planetary_Gear_Arm_Connector,1_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="$(find FINAL_description)/meshes/Planetary_Gear_Arm_Connector,1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -76,14 +76,14 @@
   <visual>
     <origin xyz="-0.0075 -0.1025 0.005137" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find FINAL_description)/meshes/Arm_1_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="$(find FINAL_description)/meshes/Arm_1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.0075 -0.1025 0.005137" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find FINAL_description)/meshes/Arm_1_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="$(find FINAL_description)/meshes/Arm_1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -97,14 +97,14 @@
   <visual>
     <origin xyz="-0.0295 -0.1025 -0.153863" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find FINAL_description)/meshes/Gear_1_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="$(find FINAL_description)/meshes/Gear_1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.0295 -0.1025 -0.153863" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find FINAL_description)/meshes/Gear_1_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="$(find FINAL_description)/meshes/Gear_1_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -118,14 +118,14 @@
   <visual>
     <origin xyz="-0.0295 -0.1025 -0.518363" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find FINAL_description)/meshes/Gear_3,_UPDATED_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="$(find FINAL_description)/meshes/Gear_3,_UPDATED_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.0295 -0.1025 -0.518363" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find FINAL_description)/meshes/Gear_3,_UPDATED_1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="$(find FINAL_description)/meshes/Gear_3,_UPDATED_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
@@ -139,14 +139,14 @@
   <visual>
     <origin xyz="-0.4145 -0.1025 -0.518363" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find FINAL_description)/meshes/Manipulator3__2__1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="$(find FINAL_description)/meshes/Manipulator3__2__1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
     <origin xyz="-0.4145 -0.1025 -0.518363" rpy="0 0 0"/>
     <geometry>
-      <mesh filename="file://$(find FINAL_description)/meshes/Manipulator3__2__1.stl" scale="0.001 0.001 0.001"/>
+      <mesh filename="$(find FINAL_description)/meshes/Manipulator3__2__1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
