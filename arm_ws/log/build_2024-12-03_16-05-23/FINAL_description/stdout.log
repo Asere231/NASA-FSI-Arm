@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/FINAL_description/FINAL_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/FINAL_description/FINAL_description.egg-info/dependency_links.txt
+writing entry points to ../../build/FINAL_description/FINAL_description.egg-info/entry_points.txt
+writing requirements to ../../build/FINAL_description/FINAL_description.egg-info/requires.txt
+writing top-level names to ../../build/FINAL_description/FINAL_description.egg-info/top_level.txt
+reading manifest file '../../build/FINAL_description/FINAL_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/FINAL_description/FINAL_description.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying urdf/FINAL.urdf -> /home/drippydel/ros2_ws/install/FINAL_description/share/FINAL_description/urdf
+running install_egg_info
+removing '/home/drippydel/ros2_ws/install/FINAL_description/lib/python3.10/site-packages/FINAL_description-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/FINAL_description/FINAL_description.egg-info to /home/drippydel/ros2_ws/install/FINAL_description/lib/python3.10/site-packages/FINAL_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/drippydel/ros2_ws/build/FINAL_description/install.log'

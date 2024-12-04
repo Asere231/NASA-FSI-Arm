@@ -1,0 +1,64 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../build/FINAL_description/FINAL_description.egg-info
+writing ../build/FINAL_description/FINAL_description.egg-info/PKG-INFO
+writing dependency_links to ../build/FINAL_description/FINAL_description.egg-info/dependency_links.txt
+writing entry points to ../build/FINAL_description/FINAL_description.egg-info/entry_points.txt
+writing requirements to ../build/FINAL_description/FINAL_description.egg-info/requires.txt
+writing top-level names to ../build/FINAL_description/FINAL_description.egg-info/top_level.txt
+writing manifest file '../build/FINAL_description/FINAL_description.egg-info/SOURCES.txt'
+reading manifest file '../build/FINAL_description/FINAL_description.egg-info/SOURCES.txt'
+writing manifest file '../build/FINAL_description/FINAL_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/drippydel/ros2_ws/src/build/FINAL_description/build
+creating /home/drippydel/ros2_ws/src/build/FINAL_description/build/lib
+creating /home/drippydel/ros2_ws/src/build/FINAL_description/build/lib/FINAL_description
+copying FINAL_description/__init__.py -> /home/drippydel/ros2_ws/src/build/FINAL_description/build/lib/FINAL_description
+running install
+running install_lib
+creating /home/drippydel/ros2_ws/src/install/FINAL_description/lib/python3.10/site-packages/FINAL_description
+copying /home/drippydel/ros2_ws/src/build/FINAL_description/build/lib/FINAL_description/__init__.py -> /home/drippydel/ros2_ws/src/install/FINAL_description/lib/python3.10/site-packages/FINAL_description
+byte-compiling /home/drippydel/ros2_ws/src/install/FINAL_description/lib/python3.10/site-packages/FINAL_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/drippydel/ros2_ws/src/install/FINAL_description/share/ament_index
+creating /home/drippydel/ros2_ws/src/install/FINAL_description/share/ament_index/resource_index
+creating /home/drippydel/ros2_ws/src/install/FINAL_description/share/ament_index/resource_index/packages
+copying resource/FINAL_description -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description
+creating /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/launch
+copying launch/gazebo.launch.py -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/launch
+copying launch/display.launch.py -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/launch
+creating /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/urdf
+copying urdf/FINAL.trans -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/urdf
+copying urdf/materials.xacro -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/urdf
+copying urdf/FINAL.xacro -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/urdf
+copying urdf/FINAL.gazebo -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/urdf
+creating /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/base_link.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/Gear_3,_UPDATED_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/Motor_end_effector_2.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/End_cap_pin_links_2.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/End_cap_Pin_Base_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/End_cap_pin_links_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/Motor_end_effector_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/Sun_Connector_Shaft,_0.2497''_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/Gear_1_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/Pin_end_effector_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/Arm_1_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/Pin_Base_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/Base_1_Top_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/worm_1_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/Worm_3_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/Manipulator3__2__1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/Pin_Links_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/End_cap_Pin_Base_2.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/Planetary_Gear_Arm_Connector,1_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+copying meshes/Motor_3_1.stl -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/meshes
+creating /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/config
+copying config/display.rviz -> /home/drippydel/ros2_ws/src/install/FINAL_description/share/FINAL_description/config
+running install_egg_info
+Copying ../build/FINAL_description/FINAL_description.egg-info to /home/drippydel/ros2_ws/src/install/FINAL_description/lib/python3.10/site-packages/FINAL_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/drippydel/ros2_ws/src/build/FINAL_description/install.log'

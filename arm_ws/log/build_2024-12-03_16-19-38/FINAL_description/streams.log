@@ -1,0 +1,23 @@
+[0.439s] Invoking command in '/home/drippydel/ros2_ws/src/FINAL_description': PYTHONPATH=/home/drippydel/ros2_ws/build/FINAL_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drippydel/ros2_ws/install/FINAL_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/FINAL_description build --build-base /home/drippydel/ros2_ws/build/FINAL_description/build install --record /home/drippydel/ros2_ws/build/FINAL_description/install.log --install-scripts $base/lib/FINAL_description --single-version-externally-managed install_data
+[0.593s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.593s]   warnings.warn(
+[0.598s] running egg_info
+[0.598s] writing ../../build/FINAL_description/FINAL_description.egg-info/PKG-INFO
+[0.599s] writing dependency_links to ../../build/FINAL_description/FINAL_description.egg-info/dependency_links.txt
+[0.599s] writing entry points to ../../build/FINAL_description/FINAL_description.egg-info/entry_points.txt
+[0.599s] writing requirements to ../../build/FINAL_description/FINAL_description.egg-info/requires.txt
+[0.599s] writing top-level names to ../../build/FINAL_description/FINAL_description.egg-info/top_level.txt
+[0.600s] reading manifest file '../../build/FINAL_description/FINAL_description.egg-info/SOURCES.txt'
+[0.601s] writing manifest file '../../build/FINAL_description/FINAL_description.egg-info/SOURCES.txt'
+[0.601s] running build
+[0.602s] running build_py
+[0.602s] running install
+[0.602s] running install_lib
+[0.603s] running install_data
+[0.603s] copying urdf/FINAL.xacro -> /home/drippydel/ros2_ws/install/FINAL_description/share/FINAL_description/urdf
+[0.603s] running install_egg_info
+[0.605s] removing '/home/drippydel/ros2_ws/install/FINAL_description/lib/python3.10/site-packages/FINAL_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.605s] Copying ../../build/FINAL_description/FINAL_description.egg-info to /home/drippydel/ros2_ws/install/FINAL_description/lib/python3.10/site-packages/FINAL_description-0.0.0-py3.10.egg-info
+[0.605s] running install_scripts
+[0.620s] writing list of installed files to '/home/drippydel/ros2_ws/build/FINAL_description/install.log'
+[0.639s] Invoked command in '/home/drippydel/ros2_ws/src/FINAL_description' returned '0': PYTHONPATH=/home/drippydel/ros2_ws/build/FINAL_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drippydel/ros2_ws/install/FINAL_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/FINAL_description build --build-base /home/drippydel/ros2_ws/build/FINAL_description/build install --record /home/drippydel/ros2_ws/build/FINAL_description/install.log --install-scripts $base/lib/FINAL_description --single-version-externally-managed install_data
