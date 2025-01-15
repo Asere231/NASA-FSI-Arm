@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: FINAL_description
+    relative_path: urdf/FINAL.xacro
+  srdf:
+    relative_path: config/FINAL.srdf
+  package_settings:
+    author_name: ""
+    author_email: ""
+    generated_timestamp: 1736967713

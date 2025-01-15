@@ -1,0 +1,46 @@
+[0.250s] Invoking command in '/home/asere/NASA-FSI-Arm/arm_ws/build/moveit_me': /usr/bin/cmake /home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me -DCMAKE_INSTALL_PREFIX=/home/asere/NASA-FSI-Arm/arm_ws/install/moveit_me
+[0.319s] -- The C compiler identification is GNU 11.4.0
+[0.382s] -- The CXX compiler identification is GNU 11.4.0
+[0.389s] -- Detecting C compiler ABI info
+[0.471s] -- Detecting C compiler ABI info - done
+[0.476s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.477s] -- Detecting C compile features
+[0.477s] -- Detecting C compile features - done
+[0.480s] -- Detecting CXX compiler ABI info
+[0.569s] -- Detecting CXX compiler ABI info - done
+[0.575s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.576s] -- Detecting CXX compile features
+[0.576s] -- Detecting CXX compile features - done
+[0.580s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.739s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.879s] Error parsing '/home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me/package.xml':
+[0.922s] Traceback (most recent call last):
+[0.922s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.922s]     main()
+[0.922s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.923s]     raise e
+[0.923s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.923s]     package = parse_package_string(
+[0.923s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.923s]     pkg.validate(warnings=warnings)
+[0.923s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.924s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.924s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me/package.xml':
+[0.924s] Invalid email "" for person ""
+[0.924s] Maintainers must have an email address
+[0.924s] Invalid email "" for person ""
+[0.939s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.940s]   execute_process(/usr/bin/python3
+[0.940s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.940s]   /home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me/package.xml
+[0.940s]   /home/asere/NASA-FSI-Arm/arm_ws/build/moveit_me/ament_cmake_core/package.cmake)
+[0.940s]   returned error code 1
+[0.940s] Call Stack (most recent call first):
+[0.940s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.940s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.940s]   CMakeLists.txt:6 (ament_package)
+[0.940s] 
+[0.940s] [0m
+[0.940s] -- Configuring incomplete, errors occurred!
+[0.940s] See also "/home/asere/NASA-FSI-Arm/arm_ws/build/moveit_me/CMakeFiles/CMakeOutput.log".
+[0.945s] Invoked command in '/home/asere/NASA-FSI-Arm/arm_ws/build/moveit_me' returned '1': /usr/bin/cmake /home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me -DCMAKE_INSTALL_PREFIX=/home/asere/NASA-FSI-Arm/arm_ws/install/moveit_me

@@ -1,0 +1,2 @@
+Invoking command in '/home/asere/NASA-FSI-Arm/arm_ws/build/moveit_me': /usr/bin/cmake /home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me -DCMAKE_INSTALL_PREFIX=/home/asere/NASA-FSI-Arm/arm_ws/install/moveit_me
+Invoked command in '/home/asere/NASA-FSI-Arm/arm_ws/build/moveit_me' returned '1': /usr/bin/cmake /home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me -DCMAKE_INSTALL_PREFIX=/home/asere/NASA-FSI-Arm/arm_ws/install/moveit_me

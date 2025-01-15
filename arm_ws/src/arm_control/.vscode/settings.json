@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/lib/python3.10/site-packages",
+        "/home/asere/ros2_ws/build/my_py_pkg",
+        "/home/asere/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/asere/ros2_ws/build/actions_py",
+        "/home/asere/ros2_ws/install/actions_py/lib/python3.10/site-packages",
+        "/home/asere/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/asere/ros2_ws/build/lifecycle_py",
+        "/home/asere/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/asere/NASA-FSI-Arm/arm_ws/install/FINAL_description/lib/python3.10/site-packages",
+        "/home/asere/ros2_ws/build/my_py_pkg",
+        "/home/asere/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/asere/ros2_ws/build/actions_py",
+        "/home/asere/ros2_ws/install/actions_py/lib/python3.10/site-packages",
+        "/home/asere/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/asere/ros2_ws/build/lifecycle_py",
+        "/home/asere/ros2_ws/install/lifecycle_py/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

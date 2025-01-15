@@ -1,0 +1,3 @@
+[console_scripts]
+keyboard_arm_control = arm_control.keyboard_arm_control:main
+

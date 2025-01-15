@@ -1,0 +1,86 @@
+[0.258s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/asere/NASA-FSI-Arm/arm_ws']
+[0.258s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/asere/NASA-FSI-Arm/arm_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7aab07670a60>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7aab0763bbb0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7aab0763bbb0>>, mixin_verb=('list',))
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.569s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/asere/NASA-FSI-Arm/arm_ws'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws) by extension 'ignore_ament_install'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws) by extension 'ros'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws) by extensions ['cmake', 'python']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws) by extension 'cmake'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws) by extension 'python'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws) by extensions ['python_setup_py']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws) by extension 'python_setup_py'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/build) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/build) ignored
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/install) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/install) ignored
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/log) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/log) ignored
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src) by extension 'ros'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src) by extensions ['cmake', 'python']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src) by extension 'cmake'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src) by extension 'python'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src) by extensions ['python_setup_py']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src) by extension 'python_setup_py'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_description) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_description) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_description) by extension 'ignore_ament_install'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_description) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_description) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_description) by extensions ['colcon_meta']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_description) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_description) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_description) by extension 'ros'
+[0.616s] DEBUG:colcon.colcon_core.package_identification:Package '/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_description' with type 'ros.ament_python' and name 'FINAL_description'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_moveit) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_moveit) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_moveit) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_moveit) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_moveit) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_moveit) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_moveit) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_moveit) by extension 'ros'
+[0.619s] DEBUG:colcon.colcon_core.package_identification:Package '/home/asere/NASA-FSI-Arm/arm_ws/src/FINAL_moveit' with type 'ros.ament_cmake' and name 'FINAL_moveit'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/arm_control) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/arm_control) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/arm_control) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/arm_control) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/arm_control) by extension 'colcon_pkg'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/arm_control) by extensions ['colcon_meta']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/arm_control) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/arm_control) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/arm_control) by extension 'ros'
+[0.620s] DEBUG:colcon.colcon_core.package_identification:Package '/home/asere/NASA-FSI-Arm/arm_ws/src/arm_control' with type 'ros.ament_python' and name 'arm_control'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me) by extension 'ros'
+[0.623s] DEBUG:colcon.colcon_core.package_identification:Package '/home/asere/NASA-FSI-Arm/arm_ws/src/moveit_me' with type 'ros.ament_cmake' and name 'moveit_me'
+[0.624s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

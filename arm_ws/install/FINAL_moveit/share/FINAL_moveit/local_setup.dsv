@@ -1,0 +1,2 @@
+source;share/FINAL_moveit/environment/ament_prefix_path.sh
+source;share/FINAL_moveit/environment/path.sh
