@@ -7,6 +7,14 @@
 <material name="grey">
         <color rgba="0.7 0.7 0.7 1"/>
     </material>
+
+<gazebo>
+  <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+    <robotNamespace>/</robotNamespace>
+  </plugin>
+</gazebo>
+
+
 <link name="world"></link>
 
 <joint name="world_to_base" type="fixed">
